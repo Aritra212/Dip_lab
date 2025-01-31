@@ -4,23 +4,23 @@ A collection of Jupyter notebooks and Python scripts demonstrating various digit
 
 ## Programs Included
 
-- **Bit Plane Slicing** (`bit_plane_slicing.ipynb`): Decomposing an image into its constituent bit planes
-- **Enhancement** (`enhancement.ipynb`): Various image enhancement techniques
-- **Gamma Transformation** (`gama_transformation.ipynb`): Gamma correction for controlling image brightness
-- **Histogram Processing** (`histogram.ipynb`): Histogram generation, equalization and specification
-- **Intensity Slicing** (`intensity_slicing.py`): Highlighting specific ranges of intensity values
-- **Linear Filters** (`linear_filters.ipynb`): Implementation of various linear spatial filters
-- **Logarithmic Transformation** (`log_transformation.ipynb`): Log transformations for dynamic range compression
-- **Morphological Operations** (`morphology.ipynb`): Erosion, dilation, opening, closing operations
-- **Negative Transformation** (`neg_transformation.ipynb`): Image negation transformations
-- **Noise Handling** (`noise.ipynb`): Adding and removing different types of noise
-- **Non-linear Filters** (`non_linear_filters.ipynb`): Median and other non-linear filtering techniques
-- **Segmentation** (`segmentation.ipynb`): Image segmentation algorithms
-- **Sharpening Filters** (`sharpening_filters.ipynb`): Implementations of various image sharpening techniques
+- **Bit Plane Slicing** ([bit_plane_slicing.ipynb](bit_plane_slicing.ipynb)): Decomposing an image into its constituent bit planes
+- **Enhancement** ([enhancement.ipynb](enhancement.ipynb)): Various image enhancement techniques
+- **Gamma Transformation** ([gama_transformation.ipynb](gama_transformation.ipynb)): Gamma correction for controlling image brightness
+- **Histogram Processing** ([histogram.ipynb](histogram.ipynb)): Histogram generation, equalization and specification
+- **Intensity Slicing** ([intensity_slicing.py](intensity_slicing.py)): Highlighting specific ranges of intensity values
+- **Linear Filters** ([linear_filters.ipynb](linear_filters.ipynb)): Implementation of various linear spatial filters
+- **Logarithmic Transformation** ([log_transformation.ipynb](log_transformation.ipynb)): Log transformations for dynamic range compression
+- **Morphological Operations** ([morphology.ipynb](morphology.ipynb)): Erosion, dilation, opening, closing operations
+- **Negative Transformation** ([neg_transformation.ipynb](neg_transformation.ipynb)): Image negation transformations
+- **Noise Handling** ([noise.ipynb](noise.ipynb)): Adding and removing different types of noise
+- **Non-linear Filters** ([non_linear_filters.ipynb](non_linear_filters.ipynb)): Median and other non-linear filtering techniques
+- **Segmentation** ([segmentation.ipynb](segmentation.ipynb)): Image segmentation algorithms
+- **Sharpening Filters** ([sharpening_filters.ipynb](sharpening_filters.ipynb)): Implementations of various image sharpening techniques
 
 ## Sample Images
 
-The `Img_used` directory contains test images used in demonstrations, including:
+The [`Img_used`](Img_used/) directory contains test images used in demonstrations, including:
 
 - Various test patterns
 - Medical images
@@ -38,6 +38,10 @@ The `Img_used` directory contains test images used in demonstrations, including:
 ### Running the Notebooks
 
 1. Clone this repository
+   ```
+   git clone https://github.com/YOUR-USERNAME/Dip_lab.git
+   cd Dip_lab
+   ```
 2. Install the required dependencies:
    ```
    pip install numpy pandas matplotlib jupyter
